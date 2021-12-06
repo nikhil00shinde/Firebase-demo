@@ -1,7 +1,13 @@
 import Fireauth from "./Components/Fireauth";
 import Firebase from "./Components/Firebase";
+import Firestorage from "./Components/Firestorage";
 function App() {
-	return <Firebase />;
+	return (
+		<>
+			<Fireauth />
+			<Firestorage />
+		</>
+	);
 }
 
 export default App;
